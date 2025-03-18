@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #030303;
+  color: white;
+  overflow-x: hidden;
+}
+
+.section {
+  position: relative;
+  width: 100vw;
+  height: 95vh;
+  overflow: hidden;
+}
+
+
+.section.section-3 {
+  overflow: visible;
+}
+
+
+.planet {
+  position: absolute;
+  z-index: 15;
+  width: 150px;  
+  height: 150px; 
+}
+
+.planet-1 { top: 30%; left: 15%; }
+.planet-2 { top: 20%; left: 50%; }
+.planet-3 { top: 25%; left: 75%; }
+
+
+.bg-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+
+.starfield {
+  background-image: url("starfield.jpg"); 
+}
+
+
+.solar-system-bg {
+  background-image: url("starfield.jpg"); 
+}
+
+.alien-bg {
+  background-image: url("alien_planet.webp"); 
+}
+
+.section-text {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 20;
+  font-size: 2rem;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+  width: 80%;
+}
+
+
+.space-station {
+  position: absolute;
+  width: 300px;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+
+.ufo {
+  position: absolute;
+  width: 200px;
+  z-index: 15; 
+}
+
+.ufo-1 {
+  top: 70%;  
+  left: 15%;
+}
+
+.ufo-2 {
+  top: 20%; 
+  left: 65%;
+}
