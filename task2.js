@@ -1,14 +1,15 @@
 $(document).ready(function() {
+ 
   parallaxScroll();
   
   $(window).on('scroll', function() {
     parallaxScroll();
   });
+
 });
 
 function parallaxScroll() {
   let scrolled = $(window).scrollTop();
-
 
   $('.space-station').css('transform', 'translateX(-50%) translateY(' + (-0.2 * scrolled) + 'px)');
   $('.planet-1').css('top',(30 + scrolled * 0.05) +'%');

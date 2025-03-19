@@ -3,12 +3,14 @@
   margin: 0;
   padding: 0;
 }
+
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   background: #030303;
   color: white;
   overflow-x: hidden;
 }
+
 
 .section {
   position: relative;
@@ -26,11 +28,11 @@ body {
 .planet {
   position: absolute;
   z-index: 15;
-  width: 150px;  
-  height: 150px; 
+  width: 160px;  
+  height: 160px; 
 }
 
-.planet-1 { top: 30%; left: 15%; }
+.planet-1 { top: 35%; left: 15%; }
 .planet-2 { top: 20%; left: 50%; }
 .planet-3 { top: 25%; left: 75%; }
 
@@ -44,6 +46,7 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
   z-index: 1;
 }
 
@@ -54,7 +57,7 @@ body {
 
 
 .solar-system-bg {
-  background-image: url("starfield.jpg"); 
+  background-image: url("galaxy2.webp"); 
 }
 
 .alien-bg {
